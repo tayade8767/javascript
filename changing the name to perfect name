@@ -1,0 +1,9 @@
+var fullname=prompt("Enter the name");
+var fnamechar=fullname.slice(0,1);
+alert(fullname);
+alert(fnamechar);
+fnamechar=fnamechar.toUpperCase();
+var lnamechar=fullname.slice(1,fullname.length);
+alert(lnamechar);
+lnamechar=lnamechar.toLowerCase();
+alert(fnamechar+lnamechar);
