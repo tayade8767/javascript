@@ -1,0 +1,2 @@
+var dogage=prompt("Enter the age of Dog");
+alert("Age of the human is "+(dogage-2)*4+21)
