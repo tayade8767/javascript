@@ -1,0 +1,15 @@
+function getmilk(bottles)
+{
+    alert("leave the home");
+    alert("move A");
+    alert("move B");
+    alert("move C");
+    var cost=Math.floor(bottles*1.5);
+    alert("take the "+bottles+" bottles and cost is "+cost+" .");    //challange 1 to print the number of bottles and cost of them
+    alert("move A");
+    alert("move B");
+    alert("move C");
+    alert("reach the home");
+}
+
+getmilk(prompt("Enter the number of bottles"));
