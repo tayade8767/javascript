@@ -1,0 +1,18 @@
+function getmilk()
+{
+    alert("leave the home");
+    alert("move A");
+    alert("move B");
+    alert("move C");
+    alert("move D");
+    alert("move E");
+    alert("take the bottles");
+    alert("move A");
+    alert("move B");
+    alert("move C");
+    alert("move D");
+    alert("move E");
+    alert("reach the home");
+}
+
+getmilk(prompt("Enter the number of bottles"));
