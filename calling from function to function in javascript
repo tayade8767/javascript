@@ -1,0 +1,16 @@
+
+function bottles(money)
+{
+   return Math.floor(money/1.5);
+}
+
+function getmilk(money)
+{
+    alert("leave the home");
+    alert("move A");
+    alert("take the "+bottles(money)+" bottles and total money is  "+money+".");
+    alert("move A");
+    alert("reach the home");
+}
+
+getmilk(prompt("Enter the money"));
