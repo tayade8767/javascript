@@ -1,0 +1,14 @@
+function getmilk(bottles)
+{
+    alert("leave the home");
+    alert("move A");
+    alert("move B");
+    alert("move C");
+    alert("take the "+bottles+" bottles");
+    alert("move A");
+    alert("move B");
+    alert("move C");
+    alert("reach the home");
+}
+
+getmilk(prompt("Enter the number of bottles"));                                  // it is the challange one
