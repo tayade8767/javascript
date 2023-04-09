@@ -1,0 +1,8 @@
+function BMICalculator(Weight,Height)
+   {
+      return (Weight/(Height*Height));
+   }
+
+var Weight=prompt("Enter the Weight");
+var Height=prompt("Enter the Height");
+alert("Calculation of BMI Calculator is "+BMICalculator(Weight,Height));
