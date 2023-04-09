@@ -1,0 +1,20 @@
+function bottles(money)
+{
+   return Math.floor(money/1.5);
+}
+function Rmoney(money)
+{
+   return money%1.5;
+}
+
+function getmilk(money)
+{
+    console.log("leave the home");
+    console.log("move A");
+    console.log("take the "+bottles(money)+" bottles and total money is  "+money+"."+" remening money is "+Rmoney(money));
+    console.log("move A");
+    console.log("reach the home");
+ 
+}
+
+getmilk(prompt("Enter the money"));
