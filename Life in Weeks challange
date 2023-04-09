@@ -1,0 +1,23 @@
+
+
+function Lifeinweeks(age)
+   {
+      Rage=60-age;
+      Rweeks=Rage*52;
+      Rdays=Rage*365;
+      Rdays11=Rdays*7;
+      Rhour=Rdays*24;
+      Rmin=Rhour*60;
+      Rsec=Rmin*60;
+      console.log("Remening age is "+Rage);
+     console.log("Remening weeks is "+Rweeks);
+    // alert("Remening weeks ======================= is "+Rweeks);                same out put as in aboveconsole.log
+      console.log("Remening days is "+Rdays);
+      console.log("Remening hour is "+Rhour);
+      console.log("Remening minutes is "+Rmin);
+      console.log("Remening secound is "+Rsec);
+   }
+
+var age=prompt("enter the age");
+Lifeinweeks(age);
+
