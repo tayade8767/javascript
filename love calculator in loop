@@ -1,0 +1,22 @@
+
+for (let index = 0; index <3; index++) {
+   
+
+
+var lovescore=Math.floor(Math.random()*100);
+alert(lovescore+"%");
+if(lovescore>=90 && lovescore<=100)
+{
+   alert("You cant do anything it will be yours");
+}
+else if(lovescore>=0 && lovescore<=40)
+{
+   alert("You can break up with him");
+}
+else if(lovescore>40 && lovescore<=80)
+{
+   alert("You can meet him daily ");
+}else 
+{
+    alert("you can lunch with him");
+}}
