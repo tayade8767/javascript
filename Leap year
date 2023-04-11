@@ -1,0 +1,15 @@
+
+function leapyearornot(year)
+   {
+      if((year%4===0) && (year%100!==0) || (year%400===0))
+        {
+          alert(year+" is the leap year");   
+        }
+      else
+        {
+         alert(year+" is not leap year")
+        }
+   }
+
+var year=prompt("Enter the Year");
+leapyearornot(year);
