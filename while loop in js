@@ -1,0 +1,11 @@
+var noofbottles=0;
+while (noofbottles<=99) 
+{
+   var bottleword="bottle";
+   if(noofbottles===1)
+   {
+      bottleword="bottles";
+   }
+   console.log(noofbottles+" "+bottleword+" are present");
+   noofbottles++;
+}
