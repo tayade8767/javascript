@@ -1,0 +1,14 @@
+var n,n1=0,n2=1,n3;
+function fibonacci(n)
+{
+   if(n===0 || n===1)
+      {
+         console.log(n);
+      }
+   else
+   {
+       return fibonacci(n-1)+fibonacci(n-2);
+   }
+}
+n=prompt("Enter the number");
+fibonacci(n);
